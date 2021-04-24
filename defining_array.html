@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    // var a = [ 10, "Newaz", 30, 40 , "Newaz", 30 , 80 ];
+//       var b = [ 60, 70, 80 , 90];
+// var d = a.concat(b);
+//      var c =  d.join(" ");
+//      document.write(c);
+// var b = a.slice(0, 4);
+// document.write(b);
+// a.splice(0, 4);
+// var b=a.indexOf("Newaz");
+// var b=a.lastIndexOf("Newaz", 2 );
+// var b = a.includes("Newaz");
+var a = [10, 13 , 20 , 56 , 90]; 
+function agechecker(a){
+    return (a >= 18);
+}
+// var b = a.some(agechecker);
+// var b = a.every(agechecker);
+// var b = a.find(agechecker);
+// var b = a.findInde(agechecker);
+//  var b = a.filter(agechecker);
+// var b = a.toString();
+// document.write(typeof b);
+
+// var b = a.fill("Hshh");
+// var c = b.join(" ");
+// document.write("<br>"+c);
+// document.write(b);
+// var  b = Array.isArray(a);
+  var b = a.forEach(agecheckerr(){ return a >= 18 });
+document.write(b);
+
+    </script>
+</body>
+</html>
